@@ -132,7 +132,7 @@ mtext(
 ```
 
 <p align="center">
-  <img src="projects/assets/img/cm_sex_hist.svg" alt="Fig.1: cm gender distribution"><br>
+  <img src="assets/img/cm_sex_hist.svg" alt="Fig.1: cm gender distribution"><br>
   <em><i>Figure 1. Proportion of females and males in the Cameroonian discovery dataset</i></em>
 </p>
 
@@ -233,7 +233,7 @@ mtext(
 ```
 
 <p align="center">
-  <img src="projects/assets/img/tz_sex_hist.svg" alt="Fig.2: tz gender distribution"><br>
+  <img src="assets/img/tz_sex_hist.svg" alt="Fig.2: tz gender distribution"><br>
   <em><i>Figure 2. Proportion of females and males in the Tanzanian replication dataset</i></em>
 </p>
 
@@ -321,7 +321,7 @@ polygon(tz.nhbf.den, col=5)
 ```
 
 <p align="center">
-  <img src="projects/assets/img/cm_tz_hbf_normaliztion.svg" alt="Fig.3: HbF normalization"><br>
+  <img src="assets/img/cm_tz_hbf_normaliztion.svg" alt="Fig.3: HbF normalization"><br>
   <em><i>Figure 3. HbF distribution in Cameroonian and Tanzanian study participants before and after normalization</i></em>
 </p>
 
