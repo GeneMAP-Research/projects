@@ -1,3 +1,8 @@
+# Fetal Hemoglobin Genome-wide Association Study
+
+Genome-wide association study of fetal hemoglobin (HbF) in Cameroon, Tanzania, and African American Sickle Cell Anemia patients
+
+
     library(tidyverse)
 
 Clinical datasets
@@ -117,7 +122,7 @@ Summary of Cameroon data
     )
 
 <p align="center">
-  <img src="figures/cm_sex_hist.svg" alt="Fig.1: cm gender distribution"><br>
+  <img src="/assets/img/cm_sex_hist.svg" alt="Fig.1: cm gender distribution"><br>
   <em><i>Figure 1. Proportion of females and males in the Cameroonian discovery dataset</i></em>
 </p>
 
@@ -213,7 +218,7 @@ Summary of Tanzania data
     )
 
 <p align="center">
-  <img src="figures/tz_sex_hist.svg" alt="Fig.2: tz gender distribution"><br>
+  <img src="/assets/img/tz_sex_hist.svg" alt="Fig.2: tz gender distribution"><br>
   <em><i>Figure 2. Proportion of females and males in the Tanzanian replication dataset</i></em>
 </p>
 
@@ -298,7 +303,7 @@ HbF normalization (Cubic root)
     polygon(tz.nhbf.den, col=5)
 
 <p align="center">
-  <img src="figures/cm_tz_hbf_normaliztion.svg" alt="Fig.3: HbF normalization"><br>
+  <img src="/assets/img/cm_tz_hbf_normaliztion.svg" alt="Fig.3: HbF normalization"><br>
   <em><i>Figure 3. HbF distribution in Cameroonian and Tanzanian study participants before and after normalization</i></em>
 </p>
 
