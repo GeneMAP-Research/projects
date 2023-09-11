@@ -76,28 +76,28 @@
       <g class="Group">
        <g class="TextShape">
         <g id="id3">
-         <rect class="BoundingBox" stroke="none" fill="none" x="2903" y="1287" width="5829" height="1740"/>
-         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Chilanka" font-size="1693px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="2821" y="2480"><tspan fill="rgb(153,153,153)" stroke="none" style="white-space: pre">Projects</tspan></tspan></tspan></text>
+         <rect class="BoundingBox" stroke="none" fill="none" x="698" y="138" width="7805" height="1317"/>
+         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Chilanka" font-size="1693px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="750" y="1340"><tspan fill="rgb(80,147,138)" stroke="none" style="white-space: pre">GeneMAP</tspan></tspan></tspan></text>
         </g>
        </g>
        <g class="TextShape">
         <g id="id4">
-         <rect class="BoundingBox" stroke="none" fill="none" x="2825" y="1187" width="4954" height="1740"/>
-         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Chilanka" font-size="1693px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="2743" y="2380"><tspan fill="rgb(80,147,138)" stroke="none" style="white-space: pre">Project</tspan></tspan></tspan></text>
+         <rect class="BoundingBox" stroke="none" fill="none" x="597" y="66" width="7805" height="1317"/>
+         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Chilanka" font-size="1693px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="649" y="1268"><tspan fill="rgb(52,101,164)" stroke="none" style="white-space: pre">Gene</tspan><tspan fill="rgb(141,29,117)" stroke="none" style="white-space: pre">MAP</tspan></tspan></tspan></text>
         </g>
        </g>
       </g>
       <g class="Group">
        <g class="TextShape">
         <g id="id5">
-         <rect class="BoundingBox" stroke="none" fill="none" x="698" y="138" width="7805" height="1317"/>
-         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Chilanka" font-size="1693px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="750" y="1340"><tspan fill="rgb(80,147,138)" stroke="none" style="white-space: pre">GeneMAP</tspan></tspan></tspan></text>
+         <rect class="BoundingBox" stroke="none" fill="none" x="3403" y="1087" width="5829" height="1740"/>
+         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Chilanka" font-size="1693px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="3321" y="2280"><tspan fill="rgb(153,153,153)" stroke="none" style="white-space: pre">Projects</tspan></tspan></tspan></text>
         </g>
        </g>
        <g class="TextShape">
         <g id="id6">
-         <rect class="BoundingBox" stroke="none" fill="none" x="597" y="66" width="7805" height="1317"/>
-         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Chilanka" font-size="1693px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="649" y="1268"><tspan fill="rgb(52,101,164)" stroke="none" style="white-space: pre">Gene</tspan><tspan fill="rgb(141,29,117)" stroke="none" style="white-space: pre">MAP</tspan></tspan></tspan></text>
+         <rect class="BoundingBox" stroke="none" fill="none" x="3325" y="987" width="4954" height="1740"/>
+         <text class="SVGTextShape"><tspan class="TextParagraph" font-family="Chilanka" font-size="1693px" font-style="italic" font-weight="400"><tspan class="TextPosition" x="3243" y="2180"><tspan fill="rgb(80,147,138)" stroke="none" style="white-space: pre">Project</tspan></tspan></tspan></text>
         </g>
        </g>
       </g>
