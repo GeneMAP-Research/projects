@@ -12,15 +12,16 @@ Genome-wide association study of fetal hemoglobin (HbF) in Cameroon, Tanzania, a
 
 Clinical datasets
 =================
-
+```r
     cm <- read_table("../clinicaldata/cm_clinical_data.tsv")
     tz <- read_table("../clinicaldata/tz_clinical_data.tsv")
+```
 
 Summary of Cameroon data
 ------------------------
 
 ### variables
-
+```r
     cm %>% names()
 
     ##  [1] "FID"                 "IID"                 "AGE"                
@@ -32,11 +33,12 @@ Summary of Cameroon data
     ## [19] "RBC"                 "MCV.fl."             "MCHC"               
     ## [22] "WBC"                 "Lymp"                "Mono"               
     ## [25] "Platelets"           "Curated_penotype"    "Sample_name_comment"
+```
 
 ### Summary statistics
 
 **Quantitative/Continuous variables**
-
+```r
     variables <- c(
        "AGE",                   # Age in years
        "HbS",                   # Proportion of HbS
@@ -87,9 +89,10 @@ Summary of Cameroon data
     ##  3rd Qu.: 94.0   3rd Qu.: 6.210  
     ##  Max.   :132.0   Max.   :22.600  
     ##  NA's   :14      NA's   :13
+```
 
 **Categorigal variables**
-
+```r
     cm %>% 
        select(SEX) %>% 
        table() %>% 
@@ -125,12 +128,14 @@ Summary of Cameroon data
        side = 1,
        line = 1
     )
+```
 
 <p align="center">
   <img src="assets/img/cm_sex_hist.svg" alt="Fig.1: cm gender distribution"><br>
   <em><i>Figure 1. Proportion of females and males in the Cameroonian discovery dataset</i></em>
 </p>
 
+```r
     cm %>% select(Stroke) %>% table()               # Number of patients with at least one overt stroke
 
     ## .
@@ -152,6 +157,7 @@ Summary of Cameroon data
     ##          174            1            8            1            1            1 
     ##      CAR/CAM          SEN 
     ##            1            4
+```
 
 *CAM = CAM/CAM, BEN = BEN/BEN, SEN = SEN/SEN, CAR = CAR/CAR, Atypical =
 Atypical/Atypical*
@@ -160,15 +166,16 @@ Summary of Tanzania data
 ------------------------
 
 ### Variables
-
+```r
     tz %>% names()
 
     ## [1] "FID" "IID" "AGE" "HbF" "SEX"
+```
 
 ### Summary statistics
 
 **Quantitative/Continuous variables**
-
+```r
     variables <- c(
        "AGE",
        "HbF"
@@ -182,9 +189,10 @@ Summary of Tanzania data
     ##  Mean   :13.288   Mean   : 5.748  
     ##  3rd Qu.:16.298   3rd Qu.: 7.800  
     ##  Max.   :44.310   Max.   :32.500
+```
 
 **Categorical variable**
-
+```r
     tz %>%
        mutate(sex.updated = ifelse(SEX == 1, "M", ifelse(SEX == 2, "F", NA))) %>%
        select(sex.updated) %>%
@@ -221,6 +229,7 @@ Summary of Tanzania data
        side = 1,
        line = 1
     )
+```
 
 <p align="center">
   <img src="assets/img/tz_sex_hist.svg" alt="Fig.2: tz gender distribution"><br>
@@ -233,7 +242,7 @@ HbF normalization (Cubic root)
 ==============================
 
 ### Cameroon
-
+```r
     cm %>% 
        mutate(normalizedHbF = HbF^(1/3)) -> cm.hbf.norm 
        
@@ -259,9 +268,10 @@ HbF normalization (Cubic root)
     ## 4   8.8          2.06
     ## 5  17.5          2.60
     ## 6  17.8          2.61
+```
 
 ### Tanzania
-
+```r
     # Tanzania
     tz %>%
        mutate(normalizedHbF = HbF^(1/3)) -> tz.hbf.norm
@@ -288,9 +298,10 @@ HbF normalization (Cubic root)
     ## 4   0.3         0.669
     ## 5   0.3         0.669
     ## 6   0.4         0.737
+```
 
 ### HbF distribution before and after normalization
-
+```r
     cm.hbf.den <- density(cm.hbf.norm$HbF)
     cm.nhbf.den <- density(cm.hbf.norm$normalizedHbF)
     tz.hbf.den <- density(tz.hbf.norm$HbF)
@@ -306,6 +317,7 @@ HbF normalization (Cubic root)
     polygon(tz.hbf.den, col=2)
     plot(tz.nhbf.den, ylab="", main="Tanzania normalized HbF")
     polygon(tz.nhbf.den, col=5)
+```
 
 <p align="center">
   <img src="assets/img/cm_tz_hbf_normaliztion.svg" alt="Fig.3: HbF normalization"><br>
@@ -320,4 +332,12 @@ f <-c(1, 2, 3, 4, 5)
 for(number in f) {
   print(number)
 }
+```
+
+```sh
+#Demo shell script
+
+for number in seq(1,5,1); do 
+  echo $number;
+done
 ```
