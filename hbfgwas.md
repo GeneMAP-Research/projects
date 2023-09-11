@@ -312,3 +312,12 @@ HbF normalization (Cubic root)
   <em><i>Figure 3. HbF distribution in Cameroonian and Tanzanian study participants before and after normalization</i></em>
 </p>
 
+
+```r
+# Demo r script
+
+f <-c(1, 2, 3, 4, 5)
+for(number in f) {
+  print(number)
+}
+```
