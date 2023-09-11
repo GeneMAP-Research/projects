@@ -3,6 +3,7 @@ layout: default
 title: HbF GWAS
 nav_order: 2
 nav_exclude: false
+has_toc: false
 ---
 
 # Fetal Hemoglobin Genome-wide Association Study
